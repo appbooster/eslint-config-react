@@ -1,0 +1,28 @@
+{
+  "name": "@appbooster/eslint-config-react",
+  "version": "1.0.0",
+  "description": "Appbooster's ESLint config for applications with react framework, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint **.js"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "appbooster",
+    "react",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Alexandr Subbotin <kelionweb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0"
+  }
+}
