@@ -23,6 +23,7 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "devDependencies": {
+    "@appbooster/eslint-config-base": "^1.0.1",
     "eslint": "^4.11.0"
   }
 }
