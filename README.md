@@ -1,5 +1,7 @@
 # @appbooster/eslint-config-react
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/appbooster/eslint-config-react.svg)](https://greenkeeper.io/)
+
 Shared eslint config for react projects in Appbooster organization
 
 ## Installation
