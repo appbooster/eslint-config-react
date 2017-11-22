@@ -1,25 +1,25 @@
 module.exports = {
   globals: {
-    __DEV__: true
+    __DEV__: true,
   },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
-      experimentalDecorators: true
-    }
+      experimentalDecorators: true,
+    },
   },
   rules: {
-    "react/jsx-uses-vars": 1,
-    "react/jsx-uses-react": 1
+    'react/jsx-uses-vars': 1,
+    'react/jsx-uses-react': 1,
   },
   plugins: [
-    "react",
-    "jest"
+    'react',
+    'jest',
   ],
   overrides: {
-    files: ["**/*.test.js"],
+    files: ['**/*.test.js'],
     env: {
-      "jest/globals": true
-    }
-  }
+      'jest/globals': true,
+    },
+  },
 }
