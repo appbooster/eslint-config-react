@@ -24,6 +24,6 @@
   },
   "devDependencies": {
     "@appbooster/eslint-config-base": "^1.0.1",
-    "eslint": "^4.18.1"
+    "eslint": "^5.0.0"
   }
 }
