@@ -12,6 +12,7 @@ module.exports = {
     'react/jsx-uses-vars': 1,
     'react/jsx-uses-react': 1,
     'react/jsx-no-undef': 'error',
+    'react/jsx-no-bind': 'error',
   },
   plugins: [
     'react',
