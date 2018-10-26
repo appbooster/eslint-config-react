@@ -19,3 +19,7 @@ extends: '@appbooster/eslint-config-react'
 ```
 
 Recommened to use with [base config](https://www.npmjs.com/package/@appbooster/eslint-config-base).
+
+## Releasing
+
+To publish new version to npm update version in package.json and create new release. TravisCI will automatically publish new version to npm
