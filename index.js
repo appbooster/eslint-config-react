@@ -11,8 +11,17 @@ module.exports = {
   rules: {
     'react/jsx-uses-vars': 1,
     'react/jsx-uses-react': 1,
-    'react/jsx-no-undef': 'error',
-    'react/jsx-no-bind': 'error',
+    'react/jsx-no-undef': 2,
+    'react/jsx-no-bind': 2,
+    'react/sort-comp': [2, {
+      order: [
+        'type-annotations',
+        'static-methods',
+        'lifecycle',
+        'everything-else',
+        'render',
+      ],
+    }],
   },
   plugins: [
     'react',
