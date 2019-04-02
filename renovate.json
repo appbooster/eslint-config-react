@@ -1,0 +1,19 @@
+{
+  "extends": [
+    ":separateMajorReleases",
+    ":separatePatchReleases",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":renovatePrefix",
+    ":updateNotScheduled",
+    ":automergeDisabled",
+    ":ignoreModulesAndTests",
+    ":maintainLockFilesDisabled",
+    ":autodetectPinVersions",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimit20",
+    "group:monorepos",
+    "group:recommended",
+    "helpers:disableTypesNodeMajor"
+  ]
+}
