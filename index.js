@@ -27,10 +27,10 @@ module.exports = {
     'react',
     'jest',
   ],
-  overrides: {
+  overrides: [{
     files: ['**/*.test.js'],
     env: {
       'jest/globals': true,
     },
-  },
+  }],
 }
