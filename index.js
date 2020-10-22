@@ -13,6 +13,8 @@ module.exports = {
     'react/jsx-uses-react': 1,
     'react/jsx-no-undef': 2,
     'react/jsx-no-bind': 2,
+    'react-hooks/rules-of-hooks': 2,
+    'react-hooks/exhaustive-deps': 1,
     'react/sort-comp': [2, {
       order: [
         'type-annotations',
@@ -25,6 +27,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'react-hooks',
     'jest',
   ],
   overrides: [{
